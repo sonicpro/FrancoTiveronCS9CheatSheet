@@ -1,6 +1,6 @@
 ﻿namespace FrancoTiveronCS9CheatSheet.Pattern_Matching.SwitchExpression
 {
-    public static class ScopeEvaluator
+    public static class ScoreEvaluator
     {
         public static string SwitchStatement(int score)
         {

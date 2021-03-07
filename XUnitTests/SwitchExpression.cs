@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 using Xunit;
-using static FrancoTiveronCS9CheatSheet.Pattern_Matching.SwitchExpression.ScopeEvaluator;
+using static FrancoTiveronCS9CheatSheet.Pattern_Matching.SwitchExpression.ScoreEvaluator;
 
 namespace XUnitTests
 {
