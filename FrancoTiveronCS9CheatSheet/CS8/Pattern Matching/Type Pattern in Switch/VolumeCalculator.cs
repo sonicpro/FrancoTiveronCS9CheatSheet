@@ -13,7 +13,7 @@ namespace FrancoTiveronCS9CheatSheet.Pattern_Matching.Type_Pattern_in_Switch
 			return double.NaN;
 		}
 
-		// Since C# 7 you a no longer restricted with integral types in switch statement.
+		// Since C# 7 you are no longer restricted with integral types in switch statement.
 		public static double GetVolumeSwitchStatementWithTypePattern(object solid)
 		{
 			switch (solid)
@@ -27,7 +27,7 @@ namespace FrancoTiveronCS9CheatSheet.Pattern_Matching.Type_Pattern_in_Switch
 			}
 		}
 
-		// C# 8+. Switch statement.
+		// C# 8+. Switch expression.
 		public static double GetVolumeSwithExpressionWithTypePattern(object solid) => solid switch
 		{
 			Cube cube when cube.Side >= 0.0 => Math.Pow(cube.Side, 3),

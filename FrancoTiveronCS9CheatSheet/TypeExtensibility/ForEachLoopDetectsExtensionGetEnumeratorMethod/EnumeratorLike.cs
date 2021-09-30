@@ -1,5 +1,5 @@
 ﻿// The class returned by GetEnumerator extension method must satisfy the following conditions:
-// 1) Have Current property. The tyoe of the property does not matter.
+// 1) Have Current property. The type of the property does not matter.
 // 2) Have MoveNext() method. The method returns boolean just like MoveNext() in IEnumerator and IEnumerator<T>
 namespace FrancoTiveronCS9CheatSheet.TypeExtensibility.ForEachLoopDetectsExtensionGetEnumeratorMethod
 {
