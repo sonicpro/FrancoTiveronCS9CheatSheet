@@ -27,3 +27,20 @@ packages/
 
 # SQL Server files
 App_Data/
+
+###############
+#    folder   #
+###############
+/**/DROP/
+/**/TEMP/
+/**/packages/
+/**/bin/
+/**/obj/
+docs
+
+###############
+#  temp file  #
+###############
+/docfx_project/api/*.yml
+/docfx_project/api/.manifest
+
