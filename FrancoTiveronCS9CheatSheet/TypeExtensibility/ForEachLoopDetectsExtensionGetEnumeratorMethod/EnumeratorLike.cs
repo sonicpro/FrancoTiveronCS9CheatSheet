@@ -1,4 +1,8 @@
-﻿// The class returned by GetEnumerator extension method must satisfy the following conditions:
+﻿/// <summary>
+/// This class is exactly the same as EnumerableCruise.Enumerator.
+/// The only difference is that this class do not have to implement IEnumerable explicitly.
+/// </summary>
+// The class returned by GetEnumerator extension method must satisfy the following conditions:
 // 1) Have Current property. The type of the property does not matter.
 // 2) Have MoveNext() method. The method returns boolean just like MoveNext() in IEnumerator and IEnumerator<T>
 namespace FrancoTiveronCS9CheatSheet.TypeExtensibility.ForEachLoopDetectsExtensionGetEnumeratorMethod
