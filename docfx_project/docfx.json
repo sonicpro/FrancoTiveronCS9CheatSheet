@@ -5,7 +5,7 @@
         {
           "src": "../",
           "files": [
-            "FrancoTiveronCS9CheatSheet/FrancoTiveronCS9CheatSheet/**.csproj"
+            "FrancoTiveronCS9CheatSheet/**.csproj"
           ]
         }
       ],
@@ -45,7 +45,6 @@
         ],
         "exclude": [
           "obj/**",
-          "_site/**"
         ]
       }
     ],

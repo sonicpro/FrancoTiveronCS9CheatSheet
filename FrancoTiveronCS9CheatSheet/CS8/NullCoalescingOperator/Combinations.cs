@@ -4,9 +4,13 @@ namespace FrancoTiveronCS9CheatSheet.CS8.NullCoalescingOperator
 {
     public static class Combinatory
     {
-        // Returns an array of "Sochetaniya" of the elements of "array" argument by "size" argument
-        // without permutations.
-        // I.e. the returned enumerable has a size of array.Length! / (size! * (array.Length - size)!)
+        /// <summary>
+        /// Returns an array of arrays. Each array contains "size" elements from "array" argument witout permutations.
+        /// </summary>
+        /// <typeparam name="T">Element type</typeparam>
+        /// <param name="array">An array to combine elements from.</param>
+        /// <param name="size">The number of element in each combination.</param>
+        /// <returns>An array of combinations. The array length is array.Length! / (size! * (array.Length - size)!).</returns>
         public static IEnumerable<T[]> Combinations<T>(T[] array, int size)
         {
             T[] result = new T[size];

@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CS8\NullCoalescingAssignment\" />
+    <Compile Remove="CS8\NullCoalescingAssignment\**" />
+    <EmbeddedResource Remove="CS8\NullCoalescingAssignment\**" />
+    <None Remove="CS8\NullCoalescingAssignment\**" />
   </ItemGroup>
 
   <ItemGroup>
